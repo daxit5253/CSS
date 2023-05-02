@@ -1,0 +1,42 @@
+.div1{
+    background-color: grey;
+    height: 600px;
+    width: 580px;
+    border: 5px solid blue;
+    font-family:Anton;
+    color: white;
+    font-size: 30px;
+    padding-left: 18px;  
+    padding-top: 20px;   
+}
+
+img{
+    float: left;  
+}
+
+p{
+
+    font-size: 15px;
+    font-family: Rubik Dirt;
+    color: black;
+    margin-left: 160px;
+    margin-right: 15px;
+}
+.black{
+    background-color: black;
+    height: 42px;
+    width: 42px;
+    float:left;
+    margin: 2px;
+    margin-top: -8px;
+}
+.white{
+    background-color: white;
+    height:42px;
+    width: 42px;
+    float: left;
+    margin: 2px;
+    margin-top: -8px;
+  
+    |
+}
