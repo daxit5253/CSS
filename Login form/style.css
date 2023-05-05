@@ -1,0 +1,120 @@
+body{ 
+    padding: 0;
+    margin: 0;
+}
+
+.bg{
+    background-image:url(./ice-hills.jpg);
+    background-size: cover;
+    height: 745px;
+    width: 1530px;
+    position: relative;
+}
+
+.box{
+    height: 500px;
+    width: 400px;
+   background: rgb(255,255,255);
+    background: linear-gradient(153deg, rgba(255,255,255,1) 0%, rgba(134,192,227,1) 52%, rgba(133,190,227,1) 57%, rgba(129,175,230,0.6026785714285714) 100%);
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    box-shadow: 0 0 8px grey;
+    border-radius: 15px;
+    border: 0;
+}
+
+.icon > img{
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    box-shadow: 0 0 8px grey;   
+}
+
+legend{
+    text-align: center;
+}
+
+.box-1, .box-2 {
+    height: 30px;
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 5px;
+    display: inline-block;
+    box-shadow: 0 0 5px grey;
+    border: 3px solid rgb(186, 185, 185);
+    padding-left: 40px;
+    font-size: 15px;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(./fonts/Roboto-Regular.ttf); 
+    font-family: 'Opensans';
+    src: url(./static/OpenSans/OpenSans-Regular.ttf);
+}
+
+
+.button{
+    height: 35px;
+    width: 380px;
+    margin-top: 60px;
+    margin-left: 12px;
+    background-color: rgba(24, 22, 22, 0.764);
+    color: white;
+    box-shadow: 0 0 2px black;
+    font-weight: 800;
+    font-family: Roboto;
+    border: solid black;
+}
+
+.icon-1{
+    position: absolute;
+    top: 66px;
+    left: 35px;
+}
+
+.icon-2{
+    position: absolute;
+    top: 154px;
+    left: 35px;
+}
+
+.icon-3{
+    position: absolute;
+    top: 155px;
+    right: 25px;
+}
+
+.text-line-1{
+    color: rgb(65, 62, 62);
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+    font-family: 'Opensans';
+    font-size: 12px;
+}
+
+.text-line-2{
+    color: black;
+    margin-top: 50px;
+    margin-left: 80px;
+    display: inline-block;
+    font-weight: 600;
+    font-family: 'Opensans';
+    font-size: 12px;
+}
+
+.sign-up{
+    color: rgb(56, 0, 241);
+    font-weight:800;
+    margin-bottom: 500px;
+    text-decoration: none;
+    font-family: 'Opensans';
+    font-size: 15px;
+}
